@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np
 import matplotlib.pyplot as plt
 import sklearn.metrics as metrics
@@ -430,4 +431,3 @@ def train_eval(model, X, y, x_test, y_test, train=False, hidden_layers=2, verbos
         
         return aupr_train, aupr_test, diff_mean
     
-    return aupr_train, aupr_test
